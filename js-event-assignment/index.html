@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS Event Playground</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>🎯 JavaScript Event Playground</h1>
+
+    <!-- Event Handling Section -->
+    <section>
+      <h2>Event Handling 🎈</h2>
+      <button id="clickBtn">Click Me</button>
+      <div id="hoverBox">Hover over me</div>
+      <input type="text" id="keyInput" placeholder="Type something..." />
+      <button id="secretBtn">Secret Action</button>
+    </section>
+
+    <!-- Interactive Elements Section -->
+    <section>
+      <h2>Interactive Elements 🎮</h2>
+      <button id="colorBtn">Change Color</button>
+      <div id="colorBox">Watch me change!</div>
+
+      <div class="tabs">
+        <button class="tab" data-target="content1">Tab 1</button>
+        <button class="tab" data-target="content2">Tab 2</button>
+      </div>
+      <div id="content1" class="tab-content">
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident
+          sit, explicabo enim necessitatibus illum ipsum nemo ipsam sunt
+          consectetur debitis quae, quo officia iure dicta similique possimus?
+          Mollitia, ipsam iste?Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Labore exercitationem id rerum ipsa suscipit
+          pariatur quis temporibus, eveniet facere aperiam consectetur culpa cum
+          at magni unde non dolorum quod voluptatum!
+        </p>
+      </div>
+      <div id="content2" class="tab-content" style="display: none">
+        <p>
+          The content for ths tab is displaying. Lorem ipsum dolor sit amet
+          consectetur, adipisicing elit. Incidunt cum vel, velit a nobis
+          reprehenderit odio omnis ullam dolores pariatur aut eveniet impedit
+          tempore iusto tenetur amet quod enim at. Assumenda incidunt sed
+          commodi, dolor soluta quis laboriosam id neque reprehenderit quasi nam
+          eligendi aliquid tempore harum labore qui maiores earum excepturi
+          expedita. Eveniet saepe fugiat aliquid obcaecati molestias recusandae?
+          Quae voluptatibus dolor neque ad odit eligendi recusandae eveniet,
+          sunt cupiditate debitis aperiam aliquam magnam voluptas nisi rerum
+          praesentium quidem dicta, dolorum placeat amet assumenda maiores!
+          Maiores recusandae iste reiciendis.
+        </p>
+      </div>
+    </section>
+
+    <!-- Form Validation Section -->
+    <section>
+      <h2>Form Validation 📋✅</h2>
+      <form id="myForm">
+        <label for="email">Email:</label>
+        <input type="email" id="email" required />
+        <span id="emailError" class="error"></span><br />
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" required minlength="8" />
+        <span id="passwordError" class="error"></span><br />
+
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
